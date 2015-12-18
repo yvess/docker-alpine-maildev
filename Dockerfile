@@ -7,4 +7,4 @@ RUN npm install -g maildev
 ADD docker-entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["maildev"]
-EXPOSE 25
+EXPOSE 80 25

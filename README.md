@@ -1,16 +1,15 @@
 # alpine linux  - maildev
 
-[MailDev](http://djfarrelly.github.io/MailDev/) put into a small alpine linux
-container, 35MB total.
+[MailDev](http://djfarrelly.github.io/MailDev/) in a small alpine linux container.
 
 ## run
 
 ```bash
-docker run -it --rm yvess/maildev
+docker run -it --rm yvess/alpine-maildev
 ```
 
 ## shell
 
 ```bash
-docker run -it --rm yvess/maildev busybox ash -l
+docker run -it --rm yvess/alpine-maildev busybox ash
 ```
